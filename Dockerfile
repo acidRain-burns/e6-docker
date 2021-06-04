@@ -1,7 +1,7 @@
 FROM adoptopenjdk/openjdk11:alpine
 ARG ENIGMATICA_REPOSITORY=https://github.com/NillerMedDild/Enigmatica6.git
 ARG ENIGMATICA_COMMIT_ISH=0.4.14
-ENV EULA=FALSE
+ENV EULA=TRUE
 
 # install the powershell
 RUN apk add --no-cache \
